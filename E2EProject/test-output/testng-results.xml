@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-28T17:17:29 CEST" name="Default suite" finished-at="2021-05-28T17:17:45 CEST" duration-ms="16431">
+    <groups>
+    </groups>
+    <test started-at="2021-05-28T17:17:29 CEST" name="Default test" finished-at="2021-05-28T17:17:45 CEST" duration-ms="16431">
+      <class name="Academy.Homepage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.Homepage@37f1104d]" started-at="2021-05-28T17:17:29 CEST" name="initialize" finished-at="2021-05-28T17:17:33 CEST" duration-ms="3726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.Homepage@37f1104d]" started-at="2021-05-28T17:17:33 CEST" name="basePageNavigation" data-provider="getData" finished-at="2021-05-28T17:17:39 CEST" duration-ms="6714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alex@mail.ru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.Homepage@37f1104d]" started-at="2021-05-28T17:17:39 CEST" name="basePageNavigation" data-provider="getData" finished-at="2021-05-28T17:17:45 CEST" duration-ms="5320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tom@mail.ru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[14324324]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Premium User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.Homepage@37f1104d]" started-at="2021-05-28T17:17:45 CEST" name="teardown" finished-at="2021-05-28T17:17:45 CEST" duration-ms="646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.Homepage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

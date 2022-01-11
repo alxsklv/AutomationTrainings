@@ -1,0 +1,33 @@
+package TestPackage;
+
+import org.testng.annotations.Test;
+
+public class day3 {
+	
+	
+	@Test
+	public void WebLogin()
+	{
+		//selenium
+	}
+	
+	@Test
+	public void MobileLogin() 
+	{
+		//Appium
+	}
+	
+	@Test
+	public void MobileLogout() 
+	{
+		//Appium
+	}
+	
+	@Test
+	public void APITestLoan() 
+	{
+		//Appium
+	}
+
+
+}

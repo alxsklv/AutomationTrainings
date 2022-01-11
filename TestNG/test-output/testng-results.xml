@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="10" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-25T18:23:36 CEST" name="Suite" finished-at="2021-05-25T18:23:36 CEST" duration-ms="100">
+    <groups>
+    </groups>
+    <test started-at="2021-05-25T18:23:36 CEST" name="Personal loan" finished-at="2021-05-25T18:23:36 CEST" duration-ms="39">
+      <class name="test2.day1">
+        <test-method signature="Demo()[pri:0, instance:test2.day1@2898ac89]" started-at="2021-05-25T18:23:36 CEST" name="Demo" finished-at="2021-05-25T18:23:36 CEST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method signature="SecondTest()[pri:0, instance:test2.day1@2898ac89]" started-at="2021-05-25T18:23:36 CEST" name="SecondTest" finished-at="2021-05-25T18:23:36 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
+      </class> <!-- test2.day1 -->
+      <class name="test2.day4">
+        <test-method signature="LoginAPIcarLoan()[pri:0, instance:test2.day4@683dbc2c]" started-at="2021-05-25T18:23:36 CEST" name="LoginAPIcarLoan" finished-at="2021-05-25T18:23:36 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPIcarLoan -->
+        <test-method signature="MobileLogincarLoan()[pri:0, instance:test2.day4@683dbc2c]" started-at="2021-05-25T18:23:36 CEST" name="MobileLogincarLoan" finished-at="2021-05-25T18:23:36 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogincarLoan -->
+        <test-method signature="WeblogincarLoan()[pri:0, instance:test2.day4@683dbc2c]" started-at="2021-05-25T18:23:36 CEST" name="WeblogincarLoan" finished-at="2021-05-25T18:23:36 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WeblogincarLoan -->
+      </class> <!-- test2.day4 -->
+      <class name="test2.day2">
+        <test-method is-config="true" signature="prerequiste()[pri:0, instance:test2.day2@6e509ffa]" started-at="2021-05-25T18:23:36 CEST" name="prerequiste" finished-at="2021-05-25T18:23:36 CEST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequiste -->
+        <test-method signature="Demo()[pri:0, instance:test2.day2@6e509ffa]" started-at="2021-05-25T18:23:36 CEST" name="Demo" finished-at="2021-05-25T18:23:36 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method signature="SecondTest()[pri:0, instance:test2.day2@6e509ffa]" started-at="2021-05-25T18:23:36 CEST" name="SecondTest" finished-at="2021-05-25T18:23:36 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
+      </class> <!-- test2.day2 -->
+    </test> <!-- Personal loan -->
+    <test started-at="2021-05-25T18:23:36 CEST" name="Car Loan" finished-at="2021-05-25T18:23:36 CEST" duration-ms="4">
+      <class name="test2.day3">
+        <test-method signature="LoginAPIcarLoan()[pri:0, instance:test2.day3@71c3b41]" started-at="2021-05-25T18:23:36 CEST" name="LoginAPIcarLoan" finished-at="2021-05-25T18:23:36 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPIcarLoan -->
+        <test-method signature="WeblogincarLoan()[pri:0, instance:test2.day3@71c3b41]" started-at="2021-05-25T18:23:36 CEST" name="WeblogincarLoan" finished-at="2021-05-25T18:23:36 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WeblogincarLoan -->
+      </class> <!-- test2.day3 -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- Suite -->
+</testng-results>

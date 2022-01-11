@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="9" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-29T17:33:57 CET" name="Loan Department" finished-at="2021-12-29T17:33:57 CET" duration-ms="111">
+    <groups>
+      <group name="Smoke">
+        <method signature="day1.SecondTest()[pri:0, instance:TestPackage.day1@313b2ea6]" name="SecondTest" class="TestPackage.day1"/>
+        <method signature="day2.Demo3()[pri:0, instance:TestPackage.day2@6a2b953e]" name="Demo3" class="TestPackage.day2"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2021-12-29T17:33:57 CET" name="Test" finished-at="2021-12-29T17:33:57 CET" duration-ms="35">
+      <class name="TestPackage.day1">
+        <test-method signature="Demo()[pri:0, instance:TestPackage.day1@313b2ea6]" started-at="2021-12-29T17:33:57 CET" name="Demo" finished-at="2021-12-29T17:33:57 CET" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method signature="SecondTest()[pri:0, instance:TestPackage.day1@313b2ea6]" started-at="2021-12-29T17:33:57 CET" name="SecondTest" finished-at="2021-12-29T17:33:57 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
+      </class> <!-- TestPackage.day1 -->
+      <class name="TestPackage.day2">
+        <test-method is-config="true" signature="prerequisites(java.lang.String)[pri:0, instance:TestPackage.day2@6a2b953e]" started-at="2021-12-29T17:33:57 CET" name="prerequisites" finished-at="2021-12-29T17:33:57 CET" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisites -->
+        <test-method signature="Demo3()[pri:0, instance:TestPackage.day2@6a2b953e]" started-at="2021-12-29T17:33:57 CET" name="Demo3" finished-at="2021-12-29T17:33:57 CET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo3 -->
+        <test-method is-config="true" signature="EndTest()[pri:0, instance:TestPackage.day2@6a2b953e]" started-at="2021-12-29T17:33:57 CET" name="EndTest" finished-at="2021-12-29T17:33:57 CET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndTest -->
+      </class> <!-- TestPackage.day2 -->
+    </test> <!-- Test -->
+    <test started-at="2021-12-29T17:33:57 CET" name="Car Loan" finished-at="2021-12-29T17:33:57 CET" duration-ms="22">
+      <class name="TestPackage.day3">
+        <test-method signature="APITestLoan()[pri:0, instance:TestPackage.day3@6c779568]" started-at="2021-12-29T17:33:57 CET" name="APITestLoan" finished-at="2021-12-29T17:33:57 CET" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APITestLoan -->
+        <test-method signature="WebLogin(java.lang.String, java.lang.String)[pri:0, instance:TestPackage.day3@6c779568]" started-at="2021-12-29T17:33:57 CET" name="WebLogin" data-provider="getData" finished-at="2021-12-29T17:33:57 CET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alex]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLogin -->
+        <test-method signature="WebLogin(java.lang.String, java.lang.String)[pri:0, instance:TestPackage.day3@6c779568]" started-at="2021-12-29T17:33:57 CET" name="WebLogin" data-provider="getData" finished-at="2021-12-29T17:33:57 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLogin -->
+        <test-method signature="WebLogin(java.lang.String, java.lang.String)[pri:0, instance:TestPackage.day3@6c779568]" started-at="2021-12-29T17:33:57 CET" name="WebLogin" data-provider="getData" finished-at="2021-12-29T17:33:57 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nike]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8910]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLogin -->
+      </class> <!-- TestPackage.day3 -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>

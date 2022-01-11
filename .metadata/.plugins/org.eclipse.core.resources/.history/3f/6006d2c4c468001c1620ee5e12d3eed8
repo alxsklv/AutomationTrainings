@@ -1,0 +1,43 @@
+package TestPackage;
+
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+public class day3 {
+	
+	
+	@Test(enabled=true)
+	public void WebLogin()
+	{
+		//selenium
+	}
+	
+	@Test(groups= {"Smoke"})
+	public void MobileLogin() 
+	{
+		//Appium
+	}
+	
+	@Test(dependsOnMethods= {"WebLogin"})
+	public void MobileLogout() 
+	{
+		//Appium
+	}
+	
+	@Test(timeOut=4000)
+	public void APITestLoan() 
+	{
+		//Appium
+	}
+	
+	@DataProvider
+	public void getData()
+	{
+		//1st set of username and pwd
+		//2nd set of username and pwd
+		//3rd set of username and pwd
+	}
+	
+
+
+}
